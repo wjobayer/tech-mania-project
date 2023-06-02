@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-const Navbar = () => {
-  return (
-    <header class="p-4 bg-white sm:p-6 dark:bg-gray-800">
+const Footer = () => {
+    return (
+        <Footer class="p-4 bg-white sm:p-6 dark:bg-gray-800">
       <div class="mx-auto max-w-screen-xl">
         <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
@@ -97,8 +97,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </header>
-  );
+    </Footer>
+    );
 };
 
-export default Navbar;
+export default Footer;
